@@ -7,6 +7,10 @@
 // let sin=create(1,2,3,4)
 // console.log(sin)
 
+
+
+
+// dice roller
 //  function submit(){
 
 //    let noofdice=document.getElementById("noofdice").value
@@ -24,3 +28,13 @@
 //     diceresult.textContent=`dice:${valu.join(",")}`
 //     diceimages.innerHTML=img.join("-")
 //  }
+
+hello(goodbye,2,3);
+function hello(callback,x,y){
+   let result=x+y;
+   callback(result)
+}
+
+function goodbye(result){
+   console.log(result)
+}

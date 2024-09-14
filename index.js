@@ -1,7 +1,7 @@
 // function create(...main){
     
 //    for (i=main;i<main;i+=main){
-//               console.log(main)
+//               console.log(i)
 //    }
 // }
 // let sin=create(1,2,3,4)

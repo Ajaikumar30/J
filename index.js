@@ -50,7 +50,7 @@
 // //    console.log("hello"+ "" + val)
 // //  }
  
-//  function double(va nl,index,arr){
+// function double(val,index,arr){
 //    arr[index]=val.toUpperCase()
 //  }
 //  function call(val){
@@ -65,3 +65,45 @@
 // function age(val){
 //    return val>18
 // }
+
+// class 
+// class product{
+//    constructor(year,model){
+//       this.year=year
+//       this.model=model
+//    }
+//    productdisplay(){
+//       console.log(`your model is ${this.model} in the year of ${this.year}`)
+//    }
+// }
+//  const product1= new product(2013,"maruthi")
+ 
+
+//  product1.productdisplay()
+
+// inheritance
+             
+// class animal{
+//     alive=true
+//     eat(){
+//     console.log(`the animal is ${this.alive}`)
+//     }}
+// class Rabbit extends animal{
+//         name="rabbit"
+//         run(){
+//             console.log(`the ${this.name} is running`)
+//         }
+//     }
+//     class Crow extends animal{
+//         name="crow"
+//         fly(){
+//             console.log(`the ${this.name} is flying`)
+//         }
+//     }
+
+//     const rabbit= new Rabbit()
+//     const crow=new Crow()
+//     crow.fly()
+
+
+
